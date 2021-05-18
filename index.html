@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Test task for Studio T</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <button class="j-btn-JSON">convert to JSON and screen to console</button>
-    <button class="j-btn-TreeToDOM">Screen Tree to page</button>
+    <div>
+        <button class="j-btn-JSON">convert to JSON and screen to console</button>
+        <button class="j-btn-TreeToDOM">Screen Tree to page</button>
+        <hr>
+        Кнопки для работы с деревом
+        <hr>
+    </div>
+    <div>
+        <button class="j-btn-AddElement">Add element into active</button>
+        <button class="j-btn-Rename">Rename element</button>
+        <button class="j-btn-Delete">Delete element</button>
+        <hr>
+        Кнопки для работы с элементами
+        <hr>
+    </div>
     <div class="tree">
         <div class="tree_items_div">
             <ul class="tree_items">
@@ -28,8 +42,19 @@
                 <li>Рыбы</li>
             </ul>
         </div>
-        <button class="j-btn-AddAtr"></button>
+        <div class="tree_items_info">
+            <textarea class="tree_item_attr" disabled></textarea>
+        </div>
     </div>
+    <div>
+        <hr>
+        Кнопки для работы с атрибутами элемента
+        <hr>
+        <button class="j-btn-AddAttr"></button>
+        <button class="j-btn-DeleteAttr"></button>
+        <button class="j-btn-DeleteOneAttr">Удалить атрибут по ключу</button>
+    </div>
+
     <script src="Tree1.js"></script>
 </body>
 </html>

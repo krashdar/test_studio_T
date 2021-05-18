@@ -1,0 +1,13 @@
+.tree {
+  display: flex;
+  flex-flow: row wrap;
+}
+.tree_items_info{
+  margin-left: 5%;
+  top: 0;
+  bottom: 0;
+  .tree_item_attr{
+    min-width: 20rem;
+    min-height: 10rem;
+  }
+}
